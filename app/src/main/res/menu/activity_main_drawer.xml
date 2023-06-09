@@ -24,5 +24,30 @@
             android:id="@+id/nav_web"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_web" />
+        <item
+            android:id="@+id/nav_high"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_high" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_filechanger"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_filechanger" />
+        <item
+            android:id="@+id/nav_collage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_collage" />
+        <item
+            android:id="@+id/nav_micro"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_micro" />
+        <item
+            android:id="@+id/nav_zaved"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zaved" />
+
     </group>
 </menu>

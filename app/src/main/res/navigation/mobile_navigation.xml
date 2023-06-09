@@ -32,5 +32,35 @@
         android:name="ru.mirea.bandurin.mireaproject.ui.web.WebFragment"
         android:label="@string/menu_web"
         tools:layout="@layout/fragment_slideshow" />
-    />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.bandurin.mireaproject.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_high"
+        android:name="ru.mirea.bandurin.mireaproject.ui.high.HighFragment"
+        android:label="@string/menu_high"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_filechanger"
+        android:name="ru.mirea.bandurin.mireaproject.ui.filechanger.FileChangerFragment"
+        android:label="@string/menu_filechanger"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_collage"
+        android:name="ru.mirea.bandurin.mireaproject.ui.collage.CollageFragment"
+        android:label="@string/menu_collage"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_micro"
+        android:name="ru.mirea.bandurin.mireaproject.ui.micro.MicroFragment"
+        android:label="@string/menu_micro"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_zaved"
+        android:name="ru.mirea.bandurin.mireaproject.ui.zaved.ZavedFragment"
+        android:label="@string/menu_zaved"
+        tools:layout="@layout/fragment_slideshow" />
+
 </navigation>
